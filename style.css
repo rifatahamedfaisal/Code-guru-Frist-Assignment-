@@ -136,7 +136,250 @@ popular_tours section
 }
 
 .popular_img{
-    width: 100%;
+    width: 420px;
     height: 400px;
+}
+
+/* ====================
+Destination_section
+============== */
+
+.Destination_section{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+}
+.Destination_title{
+    text-align: center;
+}
+.Destination_title h1{
+    font-size: 40px;
+}
+.Destination_title p{
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: gray;
+}
+
+.maldives_indonesia{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 50% 50%;
     
+}
+.maldives{
+    background-image: url(image/maldives.png);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; 
+    border-radius: 10px;
+}
+.maldives h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 120px;
+}
+.indonesia{
+    background-image: url(image/Indonesia.png);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.indonesia h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 120px;
+}
+
+
+.srilanka_kashmir{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 30% 38% 30%;
+    margin-top: 20px;
+}
+.srilanka{
+    background-image: url(image/Srilanka.png);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.srilanka h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 120px;
+}
+.america{
+    background-image: url(image/america.png);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.america h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 120px;
+}
+
+.kashmir{
+    background-image: url(image/Kashmir.png);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.kashmir h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 120px;
+}
+.bangladesh_bandarban{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 40% 60%;
+    margin-top: 20px;
+}
+.bangladesh{
+    background-image: url(image/Bangladesh.png);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.bangladesh h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 120px;
+}
+.bandarban{
+    background-image: url(image/Bandarban.png);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.bandarban h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 120px;
+}
+
+/* ==================
+chooseus_section
+============== */
+.chooseus_section{
+    width: 70%;
+    margin: auto
+}
+.chooseus_section_title{
+    padding-top: 70px;
+    text-align: center;
+}
+.chooseus_section_title h1{
+    font-size: 40px;
+    color: rgb(24, 24, 24);
+}
+.chooseus_section_title p{
+    font-size: 15px;
+    width: 60%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    color: rgb(96, 95, 95);
+}
+.chooseus_container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.single_card_one{
+    background-color: rgb(252, 249, 243);
+    padding: 20px 30px;
+    border: 1px solid antiquewhite;
+    border-radius: 15px;
+}
+.single_card_one img{
+   width: 50px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+  
+}
+.single_card_one h2{
+    margin-bottom: 20px;
+}
+.single_card_one p{
+    margin-bottom: 10px;
+    color: rgb(88, 88, 88);
+}
+/* **  */
+.single_card_two{
+    background-color: rgba(176, 224, 230, 0.22);
+    padding: 20px 30px;
+    border: 1px solid PowderBlue;
+    border-radius: 15px;
+}
+.single_card_two img{
+   width: 50px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.single_card_two h2{
+    margin-bottom: 20px;
+}
+.single_card_two p{
+    margin-bottom: 10px;
+    color: rgb(88, 88, 88);
+}
+
+
+.single{
+    display: flex;
+    width: 450px;
+    margin: auto;
+    height: 230px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+   
+}
+.single_card_three{
+    background-color:rgba(255, 239, 213, 0.369);
+    padding:  20px 30px;
+    border: 1px solid PapayaWhip;
+    border-radius: 15px;
+   
+}
+.single_card_three img{
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.single_card_three h2{
+    margin-bottom: 15px;
+}
+.single_card_three p{
+    margin-bottom: 20px;
+    color: rgb(88, 88, 88);
+
 }
